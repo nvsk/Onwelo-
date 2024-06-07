@@ -1,7 +1,7 @@
 # Onwelo-
 assignment
-**The csv files are sent by the client to the email address you have access to. The files are to be downloaded automatically because they have a fixed name. The files are to be saved on the Azure platform.**
-**1. What tools will you use to download the files, where will you save them?**
+**The csv files are sent by the client to the email address you have access to. The files are to be downloaded automatically because they have a fixed name. The files are to be saved on the Azure platform.** <br />
+**1. What tools will you use to download the files, where will you save them?** <br />
 **Ans:**
    **Azure Databricks (Pyspark notebook) or Azure VM (Python + Airflow)**
       •	Connect to mail server
