@@ -11,6 +11,7 @@ assignment
 
 2. What will be the connection between the tools you choose?
  Ans: Azure Databricks notebook can be used for developing code and scheduling on cluster. Azure Databricks can be easily integrated with Azure blob storage and SQL database.
+      ADLS Gen2 can be mounted on DBFS (databricks file system). SQL server can be connected though JDBC
    For Python: sqlalchemy, Azure DataLake service client libraries can be used;
   
 **After saving, the files are to be cleaned of rows that are empty, and after cleaning, the file is to be saved in such a way that they are available in the SQL serverless database. You should connect PowerBi to this server and publish the report online.**
