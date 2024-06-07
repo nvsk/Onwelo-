@@ -2,7 +2,7 @@
 assignment
 The csv files are sent by the client to the email address you have access to. The files are to be downloaded automatically because they have a fixed name. The files are to be saved on the Azure platform.
 1. What tools will you use to download the files, where will you save them?
-   Data cleaning
+
    **Azure Databricks (Pyspark notebook) or Azure VM (Python + Airflow)**
       •	Connect to mail server
       •	Filter emails with attachments
@@ -11,9 +11,7 @@ The csv files are sent by the client to the email address you have access to. Th
       •	Read files from Bronze layer
       •	Create dataframe (Pyspark / Pandas)
       •	Clean the data
-      •	Write to Azure Blob Storage/ADLS Gen2 as json / parquet files (Silver Layer)
-      •	Create / Update external tables in Azure SQL serverless database (Gold Layer)
-   Gold layer is something which is readily consumed by Power BI  for preparing Dashboards with minimum calculations and transformations
+      
 
 2. What will be the connection between the tools you choose?
  Ans: Azure Databricks notebook can be used for developing code and scheduling on cluster. Azure Databricks can be easily integrated with Azure blob storage and SQL database
@@ -25,6 +23,9 @@ After saving, the files are to be cleaned of rows that are empty, and after clea
    •	Read files from Bronze layer
    •	Create dataframe (Pyspark / Pandas)
    •	Clean the data
+   •	Write to Azure Blob Storage/ADLS Gen2 as json / parquet files (Silver Layer)
+   •	Create / Update external tables in Azure SQL serverless database (Gold Layer)
+   Gold layer is something which is readily consumed by Power BI  for preparing Dashboards with minimum calculations and transformations
    
 2. How will the connection between the SQL database and PowerBi online report look like?
    From PowerBI  Desktop, connect to Azure SQL database in Direct Query mode to reflect the latest data changes more frequently
