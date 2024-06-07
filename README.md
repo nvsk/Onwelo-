@@ -10,8 +10,8 @@ assignment
       •	Save files in Azure Blob Storage / ADLS Gen2 as csv files ( Bronze Layer)  
 
 2. What will be the connection between the tools you choose?
- Ans: Azure Databricks notebook can be used for developing code and scheduling on cluster. Azure Databricks can be easily integrated with Azure blob storage and SQL database
-  sqlalchemy, Azure DataLake service client libraries can be used for python;
+ Ans: Azure Databricks notebook can be used for developing code and scheduling on cluster. Azure Databricks can be easily integrated with Azure blob storage and SQL database.
+   For Python: sqlalchemy, Azure DataLake service client libraries can be used;
   
 **After saving, the files are to be cleaned of rows that are empty, and after cleaning, the file is to be saved in such a way that they are available in the SQL serverless database. You should connect PowerBi to this server and publish the report online.**
 
